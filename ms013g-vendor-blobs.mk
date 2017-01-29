@@ -296,7 +296,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     $(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     $(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so \
-    $(LOCAL_PATH)/proprietary/lib/librilutils.so:system/lib/librilutils.so
+    $(LOCAL_PATH)/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    $(LOCAL_PATH)/proprietary/lib/libfmjni.so:system/lib/llibfmjni.so
+
 
 # Sensors
 PRODUCT_COPY_FILES += \
